@@ -1,12 +1,19 @@
+#include <unistd.h>
 #include "main.h"
 
 /**
- * main - check the code for alx.
+ * print_alphabet - Print alphabet in lowercase
  *
- * Return: Always 0.
+ * Description: function print_alphabet, in lowercase
+ *
+ * Return: void (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+char alpha;
+for (alpha = 'a'; alpha <= 'z'; alpha++)
+{
+_putchar (alpha);
+}
+_putchar ('\n');
 }
