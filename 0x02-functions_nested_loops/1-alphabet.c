@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * print_alphabet - a function that prints the alphabet, in lowercase
+ * main - check the code for Holberton School students.
  *
- * Return: Always 0 (Succes)
+ * Return: Always 0.
  */
-int main(void) {
+int main(void)
+{
 	print_alphabet();
 	return (0);
 }
