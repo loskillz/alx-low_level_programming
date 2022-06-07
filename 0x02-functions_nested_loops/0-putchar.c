@@ -4,13 +4,16 @@
  *
  * Return: Always 0 (Success)
 */
-int main() {
-char *pskillz = "_putchar";
-	while(*pskillz) {
-		putchar(*pskillz);
-		pskillz++;
-	}
-	putchar("\n");
+int main(){
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
 
 	return 0;
 }
