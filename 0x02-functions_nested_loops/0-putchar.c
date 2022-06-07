@@ -7,10 +7,10 @@
 int main() {
 char *pskillz = "_putchar";
 	while(*pskillz) {
-		_putchar(*pskillz);
+		putchar(*pskillz);
 		pskillz++;
 	}
-	_putchar("\n");
+	putchar("\n");
 
 	return 0;
 }
