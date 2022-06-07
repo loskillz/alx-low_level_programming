@@ -16,3 +16,15 @@ void print_to_98(int n);
 void print_times_table(int n);
 
 #endif /* PAULOSKI */
+#include "holberton.h"
+
+void print_alphabet(void)
+{
+	int n;
+
+	for (n = 'a'; n <= 'z'; n++)
+	{
+		_putchar(n);
+	}
+	_putchar('\n');
+}
